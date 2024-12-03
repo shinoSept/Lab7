@@ -13,7 +13,7 @@ int main() {
     cout << name << ": ";
     cin >> ID;
     cin.ignore();
-    cout << "Fahsai: I think you may be GEAR " << ID/10000000 - 12 << " I have a free movie ticket for you." << '\n';
+    cout << "Fahsai: I think you may be GEAR " << ID/10000000 - 12 << ". I have a free movie ticket for you." << '\n';
     cout << "Fahsai: Let's go to the cinema together!!!" << '\n';
     cout << "Fahsai: What movie do you want to watch?" << '\n';
     cout << name << ": ";
@@ -24,7 +24,7 @@ int main() {
     cout << "Fahsai: " << day << "....that is OK!!! I'm looking forward to watching " << movie << " with you." << '\n';
     cout << name << ": ";
     getline(cin, quote);
-    cout << "Fahsai: 555+ see you " << day <<". Bye Bye \(^ ^)/";
+    cout << "Fahsai: 555+ see you " << day << ". Bye Bye \\(^ ^)/";
 
 }
 //Dialog of the first example is given below.
